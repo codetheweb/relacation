@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>relacation</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.0/seedrandom.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" title="Skeleton.css" type="text/css" media="screen" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
@@ -25,6 +26,14 @@
         background-color: #152231;
         z-index: -1;
         position: absolute;
+      }
+      h3 {
+        right: 5vw;
+        top: 3vw;
+        position: absolute;
+      }
+      h3 a {
+        text-decoration: none;
       }
       h1 {
         margin-bottom: 10vh;
@@ -220,6 +229,7 @@
 </head>
 <body>
   <div id="cover"></div>
+  <h3><a href="https://github.com/codetheweb/relacation" target="_blank">Source</a></h3>
   <h1 id="header">Location-based Randomness</h1>
   
   <button id="getLocationButton" class="button button-primary" onclick="getLocation()">Get My Location</button>
